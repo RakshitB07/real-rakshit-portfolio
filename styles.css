@@ -9,6 +9,10 @@ body {
         sans-serif;
 }
 
+hr {
+    margin: 2rem 0;
+}
+
 /* Container */
 .container {
     padding: 0rem 1rem;
