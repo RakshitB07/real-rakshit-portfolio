@@ -6,11 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rakshit's Portfolio</title>
+    <!-- <style> CSS WAY 1 IS BY STYLE TAGS
+
+        body {
+            color: red;
+        }
+    </style> -->
+    <!-- Third way of doing CSS: Using external link -->
+    <link href="styles.css" rel="stylesheet" />
+
 </head>
 
 <body>
-    <h1>Rakshit's component library</h1>
-    <p>I'm trying to make a library which would make my projects look good and consistent.</p>
+    <!-- <h1 id="lib-header">Rakshit's component library</h1> To just color the specific tag -->
+    <h1 id="lib-header">Rakshit's component library</h1>
+    <!--<h1 style="color:red">Rakshit's component library</h1>-->
+    <p class="para">I'm trying to make a library which would make my projects look good and consistent.</p>
 
     <hr>
     <!--This tag makes a visible line to partition the page-->
@@ -28,7 +39,7 @@
     <h2>@Containers</h2>
 
     <h3>Center container</h3>
-    <div>This is a centered container which will go till the specified width</div>
+    <div class="para">This is a centered container which will go till the specified width</div>
 
     <hr>
 

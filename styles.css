@@ -1,0 +1,19 @@
+body {
+    color: rgb(250, 237, 240);
+}
+
+h1 {
+    color: rgb(41, 44, 109);
+}
+
+h2 {
+    color: rgb(41, 44, 109);
+}
+
+#lib-header {
+    color: royalblue;
+}
+
+.para {
+    color: orange;
+}
