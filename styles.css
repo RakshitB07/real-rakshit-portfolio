@@ -2,11 +2,15 @@
 
 :root {
     --primary-color: #161853;
+    --light-navy: #292C6D;
+    --creame-color: #FAEDF0;
+    --candy-red: #EC255A;
 }
 
 body {
     font-family: 'Manrope',
         sans-serif;
+    background-color: var(--creame-color);
 }
 
 hr {
@@ -33,13 +37,13 @@ hr {
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
-    color: #FAEDF0;
+    border-radius: 2rem;
+    color: var(--creame-color);
 }
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color)
 }
 
@@ -58,13 +62,13 @@ hr {
 
 .navigation {
     background-color: var(--primary-color);
-    color: #FAEDF0;
+    color: var(--creame-color);
     padding: 1rem;
     border-radius: 2rem;
 }
 
 .navigation .link {
-    color: #FAEDF0;
+    color: var(--creame-color);
 }
 
 .navigation .nav-pills {
@@ -74,8 +78,33 @@ hr {
 .navigation .nav-brand {
     font-weight: bold;
     font-size: 1.3rem;
+    color: var(--creame-color);
 }
 
 .navigation .link-active {
     font-weight: bold;
+    color: var(--candy-red)
+}
+
+/* Header */
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--candy-red);
 }
