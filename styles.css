@@ -5,6 +5,7 @@
     --light-navy: #292C6D;
     --creame-color: #FAEDF0;
     --candy-red: #EC255A;
+    --creame-color-lg: #FBF2F4;
 }
 
 body {
@@ -107,4 +108,16 @@ hr {
 
 .hero .hero-heading .heading-inverted {
     color: var(--candy-red);
+}
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--creame-color-lg);
 }
