@@ -37,7 +37,7 @@ hr {
     color: #FAEDF0;
 }
 
-.link-secondary{
+.link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color)
@@ -59,8 +59,23 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: #FAEDF0;
+    padding: 1rem;
+    border-radius: 2rem;
 }
 
 .navigation .link {
     color: #FAEDF0;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.navigation .link-active {
+    font-weight: bold;
 }
