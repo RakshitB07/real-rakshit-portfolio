@@ -14,6 +14,7 @@ hr {
 }
 
 /* Container */
+
 .container {
     padding: 0rem 1rem;
 }
@@ -42,6 +43,8 @@ hr {
     border: 1px solid var(--primary-color)
 }
 
+/* lists */
+
 .list-non-bullet {
     list-style: none;
 }
@@ -49,4 +52,15 @@ hr {
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+/* NAV */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: #FAEDF0;
+}
+
+.navigation .link {
+    color: #FAEDF0;
 }
