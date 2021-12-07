@@ -12,7 +12,7 @@ body {
     font-family: 'Manrope',
         sans-serif;
     background-color: var(--creame-color);
-    margin: 0px;
+    margin: 0px 40px;
 }
 
 hr {
@@ -28,13 +28,14 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 
 /* Links */
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     color: var(--creame-color);
 }
 
@@ -67,8 +68,8 @@ hr {
     background-color: var(--primary-color);
     color: var(--creame-color);
     padding: 1rem;
-    border-top-left-radius: 1.5rem;
-    border-top-right-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
 }
 
 .navigation .link {
@@ -123,6 +124,11 @@ hr {
 
 .ow {
     background-color: var(--creame-color-lg);
+    border-radius: 1.5rem;
+}
+
+.section .container .heading-inverted {
+    color: var(--candy-red)
 }
 
 /* footer */
@@ -131,11 +137,16 @@ hr {
     background-color: var(--candy-red);
     padding: 2rem 1rem;
     text-align: center;
-    border-top-right-radius: 8rem;
-    border-top-left-radius: 8rem;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
     color: var(--creame-color);
 }
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
