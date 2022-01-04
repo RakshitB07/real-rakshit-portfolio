@@ -35,19 +35,19 @@ hr {
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem 2rem;
     color: var(--creame-color);
 }
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 2rem;
+    border-radius: 1rem;
     color: var(--creame-color);
 }
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 2rem;
+    border-radius: 1rem;
     border: 1px solid var(--primary-color)
 }
 
