@@ -152,5 +152,9 @@ hr {
 }
 
 footer {
-    margin-top: 2rem;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* margin-top: 2rem; */
 }
