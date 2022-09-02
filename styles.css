@@ -181,10 +181,7 @@ footer {
     margin-bottom: 5rem;
 }
 
-.blog-un-list {
-    font-size: 20px;
-    margin: 0px;
-    text-align: center;
-    list-style-type: none;
-    padding: 0rem;
+.blog-link-style {
+    text-decoration: none;
+    font-size: 15px;
 }
